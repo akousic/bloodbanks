@@ -1,0 +1,14 @@
+{
+  "name": "blood-bank-api",
+  "version": "1.0.0",
+  "description": "This API is used to fetch the details of blood bank for a given Indian City.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kousic Ayyadevara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
