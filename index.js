@@ -6,6 +6,9 @@ var port = process.env.PORT || 3000;
 var city = '';
 app.listen(port, () => console.log("running"));
 
+app.get('/',(req,res)=>{
+    res.send('This is test');
+});
 
 app.get('/api/bloodbanks/', (req, res) => {
     console.log(req.query.city);
