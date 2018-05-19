@@ -25,5 +25,6 @@ app.get('/api/bloodbanks/', (req, res) => {
             }
         }
     res.status(200);
+    console.log(JSON.stringify(bloodbankarray));
     res.send(JSON.stringify(bloodbankarray));
 });
